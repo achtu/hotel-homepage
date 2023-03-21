@@ -384,3 +384,34 @@ left: 0;
   font-weight: 700;
   font-size: 28px;
 }
+
+
+
+/* LAST CONTAINER */
+
+.last-div-container{
+position: relative;
+top: 2800px;
+display: inline-block;
+
+}
+.div-img-1, .div-img-2, .div-img-3{
+  display: inline-block;
+  margin-right: 10px;
+}
+.div-img-1 img{
+margin-left: 130px;
+width: 630px;
+}
+.div-img-2 img, .div-img-3 img{
+  width: 300px;
+}
+.last-div-container-h3{
+  font-size: 28px;
+ margin-left: 130px;
+}
+.last-container-button{
+  top: 0;
+  right: 100px;
+  position: absolute;
+}
