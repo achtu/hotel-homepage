@@ -440,7 +440,7 @@ text-align: center;
 .white-form{
   background-color: #fff;
   color: #000;
-  height: 70vh;
+  height: 80vh;
   width: 800px;
   border-radius: 15px;
   margin: auto;
@@ -474,4 +474,31 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 20px;
 color: #797979;
+}
+.comments{
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid #DADADA;
+width: 86%;
+height: 10vh;
+color: #797979;
+font-family: 'Montserrat';
+padding-left: 0px;
+margin-left: 0px;
+padding-top: 15px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#submit{
+  background: linear-gradient(90deg, #9a762f 0%, #f2c977 100%);
+  border-radius: 5px;
+  color: #fff;
+  text-align: left;
+  padding: 15px 20px;
+  border: none;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+
 }

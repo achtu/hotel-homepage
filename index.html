@@ -305,19 +305,47 @@
               profitable results…How may we help you?
             </h5>
             <form action="">
-            <input class="input" type="text"  placeholder="First Name"/>
-            <input class="input"  type="text" placeholder="Last Name" />
-            <input class="input"  type="email" placeholder="Email Address">
-            <input class="input"  type="text" placeholder="Phone Number"/>
-            <input class="input"  type="text"  placeholder="Company Name"/>
-            <select  class="input-select"  name="pets" id="pet-select">
-              <option value="">How can I help?</option>
-              <option value="dog">Call me</option>
-              <option value="cat">Text me</option>
-              <option value="hamster">Email me</option>
-              <option value="parrot">Where are you?</option>
-          </select>
-          </form>
+              <input class="input" type="text" placeholder="First Name" />
+              <input class="input" type="text" placeholder="Last Name" />
+              <input class="input" type="email" placeholder="Email Address" />
+              <input class="input" type="text" placeholder="Phone Number" />
+              <input class="input" type="text" placeholder="Company Name" />
+              <select class="input-select" name="pets" id="pet-select">
+                <option value="">How can I help?</option>
+                <option value="dog">Call me</option>
+                <option value="cat">Text me</option>
+                <option value="hamster">Email me</option>
+                <option value="parrot">Where are you?</option>
+              </select>
+    
+              <div class="choose">
+                <p class="label-p">Preferred Method Of Contact :</p>
+                <input
+                  type="radio"
+                  id="phone"
+                  name="fav_language"
+                  value="phone"
+                  class="radio"
+                />
+                <label for="phone">Phone</label>
+                <input
+                  type="radio"
+                  id="email"
+                  name="fav_language"
+                  value="email"
+                  class="radio"
+                />
+                <label for="email">Email</label>
+              </div>
+              <form action="/html/tags/html_form_tag_action.cfm" method="post" class="comment-form">
+                <div>
+                <textarea name="comments" id="comments" class="comments">
+                Comments...
+                </textarea>
+                </div>
+                <input type="submit" value="Submit" placeholder="Submit Message" id="submit">
+                </form>
+            </form>
           </div>
         </div>
       </div>
@@ -326,5 +354,6 @@
     <footer>
       <div class="footer-wrapper"></div>
     </footer>
+    <script src="/index.js"></script>
   </body>
 </html>
