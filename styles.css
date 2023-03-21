@@ -154,20 +154,11 @@ hr {
   position: relative;
 }
 
-.gold-wrap {
+.gold img{
+  top: 250px;
   position: absolute;
-  background: var(--linear);
-  padding: 20px;
   width: 700px;
-  height: 500px;
-  left: 150px;
-  margin-top: 250px;
-}
-.gold {
-  position: absolute;
-  background-color: #fff;
-  width: 699px;
-  height: 499px;
+  left: 90px;
 }
 .image-div {
   background-image: url(/img/engineer-hold-tablet-control-delivery-transportationglobal-logistic-contribution-innovative\ 1.png);
@@ -370,7 +361,7 @@ h4 {
 }
 .cont-3-img img{
   position: absolute;
-  width: 800px;
+  width: 700px;
 left: 0;
 }
 .cont-3-text{
@@ -384,7 +375,7 @@ left: 0;
   font-weight: 200;
   font-size: 18px;
   line-height: 27px;
-  width: 550px;
+  width: 650px;
   height: 400px;
   padding: 100px 70px;
   border-radius: 15px 0px 0px 15px;
