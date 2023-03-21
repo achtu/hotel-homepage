@@ -465,3 +465,13 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 20px;
 }
+.input-select{
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid #DADADA;
+width: 43%;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 20px;
+color: #797979;
+}
