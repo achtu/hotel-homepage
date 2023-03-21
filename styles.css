@@ -415,3 +415,53 @@ width: 630px;
   right: 100px;
   position: absolute;
 }
+
+/*   FOOTER FORM */
+
+.form-div{
+  background-image: url(/img/bgi-form.svg);
+  position: relative;
+  top: 2900px;
+  height: 110vh;
+color: #fff;
+padding-top: 100px;
+text-align: center;
+}
+.form-p{
+  margin: auto;
+  width: 700px;
+  font-weight: 100;
+  line-height: 27px;
+  padding-bottom: 30px;
+}
+.h2-form {
+  font-size: 28px;
+}
+.white-form{
+  background-color: #fff;
+  color: #000;
+  height: 70vh;
+  width: 800px;
+  border-radius: 15px;
+  margin: auto;
+  
+}
+.h5-white-form{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 25px;
+margin: auto;
+width: 530px;
+padding: 50px 0px;
+}
+.input{
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid #DADADA;
+width: 40%;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 20px;
+}
