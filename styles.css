@@ -272,9 +272,10 @@ hr {
 }
 
 h4 {
+
   padding-top: 200px;
   padding-left: 20px;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   word-wrap: break-word;
@@ -519,4 +520,462 @@ h4 {
 margin-top: 50px;
 text-align: center;
  
+}
+@media screen and (max-width: 992px) {
+ 
+  html,
+  body {
+    background: #fff;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+
+  .header-wrapper {
+    height: 80vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+  }
+  .hero-img {
+    background-image: url(/img/Component\ 1.png);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .mask-main-img{display:none;}
+  
+  .square {display:none;}
+  .nav-wrapper {
+    margin-left: 5vw;
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .nav-ul {
+    list-style: none;
+    display: flex;
+    padding-left: 10vw;
+  }
+  .nav-ul li {
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    width: 1 vw;
+  }
+  .hero-text {
+    margin-left: 5vw;
+    margin-top: 120px;
+    width: 500px;
+  }
+  .hero-text p {
+    font-size: 1.5 vw;
+    font-weight: 100;
+    width: 300px;
+    line-height: 27px;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-weight: 700;
+    width: 300px;
+    font-size: 18px;
+    line-height: 30px;
+    top: 303.57px;
+  }
+  .h1-btn {
+    background: linear-gradient(90deg, #9a762f 0%, #f2c977 100%);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+  }
+  .ul-icon {
+    margin-top: 90px;
+   
+    display: flex;
+    padding: 0px;
+  }
+  .li-icon {
+    width: 60px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  /* Executon*/
+  
+  .execution-wrapper {
+    height: 140vh;
+  }
+  .execution {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  .execution h2 {
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+  }
+  .execution p {
+    color: #5d5e5f;
+    font-size: 14px;
+    padding: 0px 50px;
+    line-height: 25px;
+  }
+  
+  .gray-div {
+    background-color: #fafafa;
+    margin: 0px 20px;
+    padding: 5px;
+    height: 720px;
+    border-radius: 15px;
+  }
+  .gray-div ul {
+    list-style: none;
+    display: block;
+    line-height: 20px;
+  }
+
+  .gray-li {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 600;
+    width: 300px;
+  }
+  #span-p {
+    color: #5d5e5f;
+    font-size: 16px;
+  }
+  
+  /* photo and gold block*/
+  
+  .photo-wrapper {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .gold img {
+    top: 50px;
+    position: absolute;
+    width: 300px;
+    left: 50px;
+  }
+  .image-div {
+    background-image: url(/img/engineer-hold-tablet-control-delivery-transportationglobal-logistic-contribution-innovative\ 1.png);
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 700px;
+    left: 0px;
+    margin-top: 0px;
+    top: 0px;
+   
+  }
+  .black-list-div {
+    width: 280px;
+    height: 700px;
+    background: #232626;
+    color: #fff;
+    right: 0px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 30px 30px;
+    margin-top: 100px;
+    top: 0px;
+  }
+  .black-list-h3 {
+    font-size: 18px;
+  }
+  .black-list-li {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 200;
+    padding-left: 10px;
+  }
+  .black-list-p {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .black-list-li::marker {
+    content: url(/icon/Ellipse\ 3.svg);
+  }
+  
+  /* wheel projects  */
+  
+  .wheel-wrap {
+    position: relative;
+    top: 30px;
+  }
+  .wheel {
+    background: #f8f8f8;
+    height: 55vh;
+  }
+  .wheel-h3 {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+    width: 300px;
+    color: #000;
+  }
+  .arrow-1{display:none;}
+  .arrow-2{display:none;}
+  
+  .wheel-container {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .img-and-name-1,
+  .img-and-name-2,
+  .img-and-name-3,
+  .img-and-name-4,
+  .img-and-name-5 {
+    display: inline-block;
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .img-and-name-1 {
+    background-image: url(/img/wheel/1.svg);
+  }
+  .img-and-name-2 {
+    background-image: url(/img/wheel/2.svg);
+  }
+  .img-and-name-3 {
+    background-image: url(/img/wheel/3.png);
+  }
+  .img-and-name-4 {
+    background-image: url(/img/wheel/4.svg);
+  }
+  .img-and-name-5 {
+    background-image: url(/img/wheel/5.svg);
+  }
+  
+  h4 {
+    padding-top: 180px;
+    padding-left: 10px;
+    font-size: 18px;
+    word-wrap: break-word;
+  }
+  
+  /* CONTAINER 2 */
+  
+  .container-2 {
+    position: relative;
+    top: 100px;
+    height: 110vh;
+  }
+  .cont-2-txt {
+    position: absolute;
+    top: 120px;
+    color: #fff;
+    background-color: #232626;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+    width: 250px;
+    height: 600px;
+    padding: 30px 30px;
+    border-radius: 0px 15px 15px 0px;
+  }
+  .cont-2-txt h3 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .button-2 {
+    margin-top: 20px;
+  }
+  .gold-square img {
+    top: 70px;
+    position: absolute;
+    width: 300px;
+    right: 50px;
+  }
+  .cont-2-img img {
+    position: absolute;
+    width: 300px;
+    right: 0px;
+    top: 0;
+  }
+  
+  .container-3 {
+    background-image: url(/img/Component\ 3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+   
+
+  }
+  .h3-cont-3{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 200;
+    width: 50vw;
+    padding: 10px 100px;
+    
+    margin-left: 0;
+  }
+  .cont-3-btn {
+    background-color: #9a7530;
+
+    color: #fff;
+  
+  }
+  
+  /* NEW CONTAINER 3 */
+  .container-3-1 {
+    position: relative;
+    top: 0px;
+    height: 100vh;
+  }
+  .gold-square-2 img {
+    top: 70px;
+    position: absolute;
+    width: 300px;
+    left: 50px;
+  }
+  .cont-3-img img {
+  
+    width: 300px;
+    left: 0;
+  }
+  .cont-3-text {
+
+    top: 130px;
+    right: 0;
+ 
+  font-style: 18px;
+  line-height: 30px;
+    width: 250px;
+    height: 570px;
+    padding: 10px 30px;
+
+  }
+  .cont-3-text-h3 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  /* LAST CONTAINER */
+  
+  .last-div-container {
+  
+    top: 0px;
+    height: 100vh;
+ 
+  }
+  .div-img-1,
+  .div-img-2,
+  .div-img-3 {
+
+    margin-right: 10px;
+
+  }
+  .div-img-2 img,
+  .div-img-3 img{
+margin-left: 40px;
+  }
+  .div-img-1 img {
+    margin-left: 5px;
+    width: 380px;
+  }
+  .div-img-2 img,
+  .div-img-3 img {
+    width: 300px;
+  }
+  .last-div-container-h3 {
+    font-size: 18px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+  }
+  .last-container-button {
+    top: 50px;
+    right: 0px;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    border-radius: 0;
+  }
+  
+  /*   FOOTER FORM */
+  
+  .form-div {
+ 
+    top: 0px;
+    height: 110vh;
+    
+    padding-top: 50px;
+   
+    margin-top: 30px;
+  }
+  .form-p {
+    margin: auto;
+    width: 350px;
+    font-weight: 100;
+    line-height: 18px;
+    padding-bottom: 30px;
+    line-height: 20px;
+  }
+  
+  .white-form {
+  
+    height: 80vh;
+    width: 380px;
+   
+  }
+  .h5-white-form {
+   
+    font-size: 19px;
+    line-height: 25px;
+    
+    width: 330px;
+    padding: 50px 0px;
+  }
+  .input {
+  
+    margin: 5px;
+  
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  .input-select {
+  
+    margin: 0px;
+   
+    width: 46%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  
+  }
+
+  .footer-wrapper{
+  
+   top: 30px;
+    height: 45vh;
+   
+  }
 }
