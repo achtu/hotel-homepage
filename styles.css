@@ -81,6 +81,7 @@ h1 {
   font-size: 17px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 .ul-icon {
   margin-top: 90px;
@@ -154,7 +155,7 @@ hr {
   position: relative;
 }
 
-.gold img{
+.gold img {
   top: 250px;
   position: absolute;
   width: 700px;
@@ -346,25 +347,26 @@ h4 {
   font-size: 17px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 /* NEW CONTAINER 3 */
-.container-3-1{
+.container-3-1 {
   position: relative;
   top: 1900px;
 }
-.gold-square-2 img{
+.gold-square-2 img {
   top: 70px;
   position: absolute;
   width: 700px;
   left: 200px;
 }
-.cont-3-img img{
+.cont-3-img img {
   position: absolute;
   width: 700px;
-left: 0;
+  left: 0;
 }
-.cont-3-text{
+.cont-3-text {
   position: absolute;
   top: 130px;
   right: 0;
@@ -380,37 +382,37 @@ left: 0;
   padding: 100px 70px;
   border-radius: 15px 0px 0px 15px;
 }
-.cont-3-text-h3{
+.cont-3-text-h3 {
   font-weight: 700;
   font-size: 28px;
 }
 
-
-
 /* LAST CONTAINER */
 
-.last-div-container{
-position: relative;
-top: 2800px;
-display: inline-block;
-
+.last-div-container {
+  position: relative;
+  top: 2800px;
+  display: inline-block;
 }
-.div-img-1, .div-img-2, .div-img-3{
+.div-img-1,
+.div-img-2,
+.div-img-3 {
   display: inline-block;
   margin-right: 10px;
 }
-.div-img-1 img{
-margin-left: 130px;
-width: 630px;
+.div-img-1 img {
+  margin-left: 130px;
+  width: 630px;
 }
-.div-img-2 img, .div-img-3 img{
+.div-img-2 img,
+.div-img-3 img {
   width: 300px;
 }
-.last-div-container-h3{
+.last-div-container-h3 {
   font-size: 28px;
- margin-left: 130px;
+  margin-left: 130px;
 }
-.last-container-button{
+.last-container-button {
   top: 0;
   right: 100px;
   position: absolute;
@@ -418,16 +420,16 @@ width: 630px;
 
 /*   FOOTER FORM */
 
-.form-div{
+.form-div {
   background-image: url(/img/bgi-form.svg);
   position: relative;
   top: 2900px;
   height: 110vh;
-color: #fff;
-padding-top: 100px;
-text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  text-align: center;
 }
-.form-p{
+.form-p {
   margin: auto;
   width: 700px;
   font-weight: 100;
@@ -437,68 +439,80 @@ text-align: center;
 .h2-form {
   font-size: 28px;
 }
-.white-form{
+.white-form {
   background-color: #fff;
   color: #000;
   height: 80vh;
   width: 800px;
   border-radius: 15px;
   margin: auto;
-  
+  text-align: center;
 }
-.h5-white-form{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 19px;
-line-height: 25px;
-margin: auto;
-width: 530px;
-padding: 50px 0px;
+.h5-white-form {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  margin: auto;
+  width: 530px;
+  padding: 50px 0px;
 }
-.input{
+.input {
   border-radius: 5px;
   margin: 5px;
-  border: 1px solid #DADADA;
-width: 40%;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 20px;
+  border: 1px solid #dadada;
+  width: 40%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
 }
-.input-select{
+.input-select {
   border-radius: 5px;
   margin: 5px;
-  border: 1px solid #DADADA;
-width: 43%;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 20px;
-color: #797979;
+  border: 1px solid #dadada;
+  width: 43%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  color: #797979;
 }
-.comments{
+.comments {
   border-radius: 5px;
   margin: 5px;
-  border: 1px solid #DADADA;
-width: 86%;
-height: 10vh;
-color: #797979;
-font-family: 'Montserrat';
-padding-left: 0px;
-margin-left: 0px;
-padding-top: 15px;
-margin-top: 20px;
-margin-bottom: 20px;
+  border: 1px solid #dadada;
+  width: 86%;
+  height: 10vh;
+  color: #797979;
+  font-family: "Montserrat";
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#submit{
+#submit {
   background: linear-gradient(90deg, #9a762f 0%, #f2c977 100%);
   border-radius: 5px;
   color: #fff;
-  text-align: left;
   padding: 15px 20px;
   border: none;
   font-size: 17px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-
+}
+.footer-wrapper{
+  position: relative;
+ top: 2900px;
+  height: 20vh;
+  background: #232626;
+  color: #fff;
+}
+.footer-p{
+  font-size: 12px;
+  font-weight: 100;
+margin-top: 50px;
+text-align: center;
+ 
 }
